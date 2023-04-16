@@ -1,0 +1,117 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html{
+   scroll-behavior: smooth;
+}
+body{
+   background-color: #66CEF3;
+}
+p{
+   width: 50%;
+}
+header{
+   background-color: #ffffff88;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: end;
+}
+header a{
+   margin-right: 10px;
+   text-decoration: none;
+   color: #0a0e50;
+   font-size: 20px;
+
+}
+section h3{
+   color: #020527;
+}
+
+.container{
+   margin: 0 auto;
+   width: 80%;
+   background-color: #0099D6;
+   color: #fff;
+   padding: 20px;
+   text-align: justify;
+}
+.containerFlex{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+#perfil{
+   margin-bottom: 20px;
+   height: 80vh;
+}
+#perfil img{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+}
+#perfil h1{
+   margin: 10px 0 ;
+}
+#perfil h2{
+   font-size: 18px;
+   color: #161F30;
+   margin-bottom: 10px;
+}
+
+#formacao{
+   margin-bottom: 20px;
+   height: 90vh;
+}
+#formacao h3{
+   font-size: 22px;
+}
+#formacao h4{
+   margin: 10px 0;
+}
+#formacao h5{
+   margin-bottom: 10px;
+}
+#portifolio{
+   margin-bottom: 20px;
+}
+#portifolio h3{
+   margin: 10px 0 ;
+}
+#portifolio div h5{
+   font-size: 18px;
+   margin: 10px 0 ;
+   
+}
+#portifolio div a{
+   margin-bottom: 10px;
+   
+}
+#portifolio h3{
+   font-size: 22px;
+}
+#contato{
+   background-color: #ffffff7d;
+   width: 80%;
+   margin: 0 auto ;
+   padding: 20px 10px;
+}
+#contato section div {
+   display: flex;
+   align-items: flex-start;
+   justify-content: left;
+   flex-direction: column;
+}
+#contato section a {
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #0a0e50;
+
+}
+
+.vermelho{
+   color: black;
+}
